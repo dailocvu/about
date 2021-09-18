@@ -1,9 +1,15 @@
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Particle from "./Particle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
     <div className="relative">
       <Particle />
@@ -32,7 +38,10 @@ const About = () => {
           </div>
         </div>
 
-        <div className="relative lg:w-1/2 lg:h-full h-screen">
+        <div
+          data-aos="fade-up"
+          className="relative lg:w-1/2 lg:h-full h-screen"
+        >
           <div className="absolute h-full">
             <div className="text-gray-100 h-full sm:px-12 px-6 flex flex-col justify-center">
               <div className="sm:w-20 sm:h-1 w-14 h-0.5 bg-primaryblue"></div>

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { HTML } from "./icons/HTML";
 import { CSS } from "./icons/CSS";
 import { JavaScript } from "./icons/JavaScript";
@@ -6,6 +7,8 @@ import { React } from "./icons/React";
 import { Redux } from "./icons/Redux";
 import { AdobeXD } from "./icons/AdobeXD";
 import { Figma } from "./icons/Figma";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const techIcon = [
   {
@@ -43,8 +46,15 @@ const techIcon = [
 ];
 
 const TechIcons = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 grid-flow-row gap-8 mt-14">
+    <div
+      data-aos="zoom-in-up"
+      className="grid grid-cols-3 sm:grid-cols-4 grid-flow-row gap-8 mt-14"
+    >
       {techIcon.map((icon) => (
         <div key={icon.name} className="flex flex-col items-center">
           <div className="w-12 h-12 mb-1">{icon.icon}</div>
