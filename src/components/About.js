@@ -11,7 +11,7 @@ const About = () => {
         <div className="lg:w-1/2 lg:h-full h-screen text-gray-100 font-bold flex flex-col justify-center items-center text-center">
           <div className="px-8 absolute">
             <h1
-              className="text-4xl sm:text-6xl l glitch"
+              className="text-4xl font-extrabold sm:text-6xl l glitch"
               data-text="Hey, I'm Loc ✌🏻"
             >
               Hey, I'm Loc ✌🏻
