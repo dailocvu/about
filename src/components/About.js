@@ -15,7 +15,7 @@ const About = () => {
       <Particle />
       <div className="lg:h-screen flex lg:flex-row flex-col">
         <div className="lg:w-1/2 lg:h-full h-screen text-gray-100 font-bold flex flex-col justify-center items-center text-center">
-          <div className="px-8 absolute">
+          <div className="px-8 absolute ">
             <h1
               className="text-4xl font-extrabold sm:text-6xl l glitch"
               data-text="Hey, I'm Loc ✌🏻"

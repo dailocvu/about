@@ -4,7 +4,7 @@ import Skill from "./components/Skill";
 
 function App() {
   return (
-    <div>
+    <div className="font-beVNPro bg-black">
       <About />
       <Skill />
       <Portfolio />

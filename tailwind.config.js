@@ -19,6 +19,9 @@ module.exports = {
       backgroundImage: {
         hero: "url('https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7118759521e3184778a3b5e010e202c6')",
       },
+      fontFamily: {
+        beVNPro: ['"Be Vietnam Pro"', "sans-serif"],
+      },
     },
   },
   variants: {
