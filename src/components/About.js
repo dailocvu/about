@@ -28,7 +28,7 @@ const About = () => {
               </h2>
             </div>
             <a
-              className="border py-4 px-14 tracking-wide rounded-md bg-gradient-to-r hover:from-primaryblue hover:to-primarypink transition-colors duration-300 ease-linear hover:border-transparent "
+              className="border py-4 px-14 rounded-md tracking-wide  hover:bg-primaryblue hover:text-gray-800 transition-all duration-300 ease-linear hover:border-transparent "
               href="/"
               target="_blank"
               rel="noreferrer"
