@@ -2,38 +2,54 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Cloudy from "../images/cloudy.png";
+import HomepagePortfolio from "../images/homepageportfolio.png";
 import Commerce from "../images/e-commerce.png";
 import Cinema from "../images/cinema.png";
 import Others from "../images/others.png";
+import About from "../images/about.png";
 
 const portfolios = [
   {
     name: "Cloudy - Cloud Hosting",
     img: Cloudy,
     urlLive: "https://kryonics.me/cloudy",
-    urlGithub: "https://kryonics.me/cloudy",
+    urlGithub: "https://github.com/iamkryonics/cloudy",
     description: "A landing page for cloud hosting service website",
+  },
+  {
+    name: "Homepage - My Portfolio",
+    img: HomepagePortfolio,
+    urlLive: "https://kryonics.me",
+    urlGithub: "https://github.com/iamkryonics/iamkryonics.github.io",
+    description: "3D interactive homepage for my portfolio website",
+  },
+  {
+    name: "About Me - My Portfolio",
+    img: About,
+    urlLive: "https://kryonics.me/about",
+    urlGithub: "https://github.com/iamkryonics/about",
+    description: "Something about me, skills and projects (Current website)",
   },
   {
     name: "Store - eCommerce Website",
     img: Commerce,
-    urlLive: "",
-    urlGithub: "",
+    urlLive: null,
+    urlGithub: "#",
     description: "A project with my team on Web Development 1 subject",
   },
   {
     name: "Cinema+ - Movie Tickets Booking Website",
     img: Cinema,
-    urlLive: "",
-    urlGithub: "",
+    urlLive: null,
+    urlGithub: "#",
     description: "A project with my team on Web Development 2 subject",
   },
   {
     name: "And More...",
     img: Others,
-    urlLive: "",
-    urlGithub: "",
-    description: "Visit my Github profile for more informations 👇🏻",
+    urlLive: null,
+    urlGithub: "https://github.com/iamkryonics",
+    description: "Visit my Github profile 👇🏻 to discovery ",
   },
 ];
 
@@ -43,11 +59,11 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="lg:h-screen h-full bg-black relative overflow-hidden">
-      <div className=" h-full flex flex-col lg:flex-row">
+    <div className="bg-black relative overflow-hidden">
+      <div className="flex flex-col lg:flex-row">
         <div
           data-aos="fade-right"
-          className="lg:w-1/6 lg:h-full sm:h-1/5 h-20 bg-black text-gray-100 flex justify-center items-center"
+          className=" lg:w-1/6 lg:h-screen sm:h-1/5 h-20 bg-black text-gray-100 flex justify-center items-center"
         >
           <h2 className="text-5xl sm:text-6xl uppercase font-bold lg:transform lg:-rotate-90 tracking-wide">
             Portfolio
@@ -63,14 +79,17 @@ const Portfolio = () => {
               <div className="px-4 opacity-0 hover:opacity-90 bg-gray-800 absolute w-full h-full transition-all ease-linear duration-300 flex flex-col justify-center items-center text-center">
                 <h2 className="text-white text-2xl">{portfolio.name}</h2>
                 <p className="mb-4 text-gray-400">{portfolio.description}</p>
-                <a
-                  className="font-medium px-16 py-3 bg-black text-white rounded-md mb-1 tracking-wide  hover:bg-primaryblue hover:text-gray-900 transition-all duration-300 ease-linear hover:border-transparent"
-                  href={portfolio.urlLive}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
+                {portfolio.urlLive ? (
+                  <a
+                    className="font-medium px-16 py-3 bg-black text-white rounded-md mb-1 tracking-wide  hover:bg-primaryblue hover:text-gray-900 transition-all duration-300 ease-linear hover:border-transparent"
+                    href={portfolio.urlLive}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                ) : null}
+
                 <a
                   className="font-medium px-10 py-3 border text-white rounded-md  tracking-wide  hover:bg-primaryblue hover:text-gray-900 transition-all duration-300 ease-linear hover:border-transparent"
                   href={portfolio.urlGithub}
