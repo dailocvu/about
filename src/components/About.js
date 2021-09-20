@@ -17,13 +17,13 @@ const About = () => {
         <div className="lg:w-1/2 lg:h-full h-screen text-gray-100 font-bold flex flex-col justify-center items-center text-center">
           <div className="px-8 absolute ">
             <h1
-              className="text-4xl font-extrabold sm:text-6xl l glitch"
+              className="text-4xl font-extrabold sm:text-6xl glitch"
               data-text="Hey, I'm Loc ✌🏻"
             >
               Hey, I'm Loc ✌🏻
             </h1>
             <div className="mt-2 mb-8 sm:mt-4 sm:mb-10">
-              <h2 className="sub uppercase text-md sm:text-lg  sm:tracking-widest whitespace-nowrap border-r border-primaryblue text-primaryblue tracking-wider overflow-hidden">
+              <h2 className="sub uppercase text-sm sm:text-lg  sm:tracking-widest whitespace-nowrap border-r border-primaryblue text-primaryblue tracking-wider overflow-hidden">
                 Want to take a look ?
               </h2>
             </div>
@@ -43,22 +43,25 @@ const About = () => {
           className="relative lg:w-1/2 lg:h-full h-screen"
         >
           <div className="absolute h-full">
-            <div className="text-gray-100 h-full sm:px-12 px-6 flex flex-col justify-center">
-              <div className="sm:w-20 sm:h-1 w-14 h-0.5 bg-primaryblue"></div>
-              <h2 className="relative sm:left-24 left-16 -top-4 w-max sm:text-2xl text-xl">
+            <div className="text-gray-100 h-full sm:px-12 px-6 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
+              <div className="sm:w-20 sm:h-1 w-14 h-0.5 bg-primaryblue hidden lg:block"></div>
+              <h2 className="relative lg:left-24 -top-4 w-max sm:text-2xl text-xl font-medium border-b-2 sm:border-b-4 border-primaryblue lg:border-none">
                 About Me
               </h2>
-              <h1 className="sm:text-6xl text-5xl font-extrabold">
-                I'm a new entry-level Front-end Web Developer
+              <h1 className="sm:text-6xl text-4xl font-extrabold">
+                I'm a Front-end Web Developer & Creative Lover
               </h1>
               <div className="sm:w-20 sm:h-1 w-14 h-0.5 bg-primaryblue my-6"></div>
-              <p className="text-gray-300">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quaerat culpa accusantium labore distinctio velit, laboriosam
-                pariatur quis
+              <p className="text-gray-300 font-extralight sm:text-xl">
+                <span className="italic">
+                  “Creativity is just connecting things.”
+                </span>{" "}
+                - Steve Jobs
               </p>
               <div className="my-6">
-                <p className="sm:text-2xl text-xl">How to reach me</p>
+                <p className="sm:text-2xl text-xl font-medium">
+                  How to reach me
+                </p>
                 <p className="text-gray-300">
                   You can email me at
                   <a
@@ -68,7 +71,7 @@ const About = () => {
                     {" "}
                     vdloc.hcmus@gmail.com
                   </a>{" "}
-                  or visit my profile on platforms below
+                  or visit 👇🏻
                 </p>
                 <div className="text-4xl mt-2">
                   <a

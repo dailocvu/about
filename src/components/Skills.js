@@ -83,7 +83,7 @@ const Skills = () => {
           </svg>
         </div>
       </div>
-      <div className="h-full w-full flex flex-col justify-center items-center text-center text-gray-100 lg:px-52 px-6">
+      <div className="h-full w-full flex flex-col justify-center items-center text-center text-gray-100 lg:px-60 px-6">
         {/* <img
           data-aos="zoom-in-left"
           className="absolute hidden sm:block md:w-40 w-28 lg:right-10 lg:top-10 right-10 top-10"
@@ -96,15 +96,15 @@ const Skills = () => {
           src={Astronaut}
           alt=""
         /> */}
-        <h1 data-aos="zoom-in-up" className="text-5xl sm:text-6xl font-bold">
+        <h1 data-aos="zoom-in-up" className="text-4xl sm:text-6xl font-bold">
           Tech stack/skills 🏆
         </h1>
         <h2
           data-aos="zoom-in-up"
           className="text-gray-300 mt-2 sm:text-xl text-base"
         >
-          As a front-end developer , UI/UX discover, I Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Officia saepe maxime ex quia ab.
+          As a Front-end Developer, I have a keen interest in UI/UX, love to
+          build beautiful websites by finding ways to make things easier
         </h2>
         <TechIcons />
       </div>

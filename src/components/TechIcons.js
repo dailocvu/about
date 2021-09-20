@@ -53,12 +53,12 @@ const TechIcons = () => {
   return (
     <div
       data-aos="zoom-in-up"
-      className="grid grid-cols-3 sm:grid-cols-4 grid-flow-row gap-8 mt-14"
+      className="grid grid-cols-3 sm:grid-cols-4 grid-flow-row sm:gap-8 sm:mt-14 gap-6 mt-10"
     >
       {techIcon.map((icon) => (
         <div key={icon.name} className="flex flex-col items-center">
-          <div className="w-12 h-12 mb-1">{icon.icon}</div>
-          <p>{icon.name}</p>
+          <div className="sm:w-12 sm:h-12 w-10 h-10 mb-1">{icon.icon}</div>
+          <p className="text-gray-300">{icon.name}</p>
         </div>
       ))}
     </div>

@@ -65,13 +65,13 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="bg-black relative overflow-hidden">
+    <div className="bg-black relative overflow-hidden mt-16">
       <div className="flex flex-col lg:flex-row">
         <div
           data-aos="fade-right"
           className=" lg:w-1/6 lg:h-screen sm:h-1/5 h-20 bg-black text-gray-100 flex justify-center items-center"
         >
-          <h2 className="text-5xl sm:text-6xl uppercase font-bold lg:transform lg:-rotate-90 tracking-wide">
+          <h2 className="text-4xl sm:text-6xl uppercase font-bold lg:transform lg:-rotate-90 tracking-wide">
             Portfolio
           </h2>
         </div>
@@ -87,7 +87,7 @@ const Portfolio = () => {
             >
               <div className="px-4 opacity-0 hover:opacity-90 bg-gray-800 absolute w-full h-full transition-all ease-linear duration-300 flex flex-col justify-center items-center text-center">
                 <h2 className="text-white text-2xl">{portfolio.name}</h2>
-                <p className="mb-4 text-gray-400">{portfolio.description}</p>
+                <p className="mb-4 text-gray-300">{portfolio.description}</p>
                 {portfolio.urlLive ? (
                   <a
                     className="font-medium px-16 py-3 bg-black text-white rounded-md mb-1 tracking-wide  hover:bg-primaryblue hover:text-gray-900 transition-all duration-300 ease-linear hover:border-transparent"
