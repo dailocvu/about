@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Skill from "./components/Skill";
+import Skills from "./components/Skills";
 // import ReactFullpage from "@fullpage/react-fullpage";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="font-beVNPro bg-black">
       <About />
-      <Skill />
+      <Skills />
       <Portfolio />
     </div>
   );
