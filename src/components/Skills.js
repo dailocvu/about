@@ -109,7 +109,7 @@ const Skills = () => {
         <TechIcons />
       </div>
     </div>
-
+  );
 };
 
 export default Skills;
