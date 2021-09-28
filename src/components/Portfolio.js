@@ -6,7 +6,7 @@ import HomepagePortfolio from "../images/homepageportfolio.png";
 import Commerce from "../images/e-commerce.png";
 import Cinema from "../images/cinema.png";
 import Others from "../images/others.png";
-import About from "../images/about.png";
+import About from "../images/aboutme.png";
 
 const portfolios = [
   {
