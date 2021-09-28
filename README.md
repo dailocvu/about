@@ -1,6 +1,6 @@
 # About Me - My Portfolio Website
 
-A website for showing something about myself and all my projects, using:
+A website for introduce about myself and all my projects, using:
 
 - ReactJS for building components/structure
 - TailwindCSS for styling and responsive
