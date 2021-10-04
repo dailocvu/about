@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import Cloudy from "../images/cloudy.png";
 import HomepagePortfolio from "../images/homepageportfolio.png";
 import Commerce from "../images/e-commerce.png";
+import ModernCommerce from "../images/modern-ecommerce.png";
 import Cinema from "../images/cinema.png";
 import Others from "../images/others.png";
 import About from "../images/aboutme.png";
@@ -11,6 +12,14 @@ import About from "../images/aboutme.png";
 const portfolios = [
   {
     id: "1",
+    name: "Ella Collection - Modern ECommerce",
+    img: ModernCommerce,
+    urlLive: "https://kryonics.me/e-commerce",
+    urlGithub: "https://github.com/iamkryonics/e-commerce",
+    description: "Extremely shopping experience with modern UI website",
+  },
+  {
+    id: "2",
     name: "Cloudy - Cloud Hosting",
     img: Cloudy,
     urlLive: "https://kryonics.me/cloudy",
@@ -18,7 +27,7 @@ const portfolios = [
     description: "A landing page for cloud hosting service website",
   },
   {
-    id: "2",
+    id: "3",
     name: "Homepage - My Portfolio",
     img: HomepagePortfolio,
     urlLive: "https://kryonics.me",
@@ -26,23 +35,23 @@ const portfolios = [
     description: "3D interactive homepage for my portfolio website",
   },
   {
-    id: "3",
+    id: "4",
     name: "About Me - My Portfolio",
     img: About,
     urlLive: "https://kryonics.me/about",
     urlGithub: "https://github.com/iamkryonics/about",
-    description: "Something about me, skills and projects (Current website)",
+    description: "An introduction about me, skills and projects (Current website)",
   },
   {
-    id: "4",
-    name: "Store - eCommerce Website",
+    id: "5",
+    name: "Store - ECommerce Website",
     img: Commerce,
     urlLive: null,
     urlGithub: "https://github.com/adga32/DoAnLTW",
     description: "A project with my team on Web Development 1 subject",
   },
   {
-    id: "5",
+    id: "6",
     name: "Cinema+ - Movie Tickets Booking Website",
     img: Cinema,
     urlLive: null,
@@ -50,7 +59,7 @@ const portfolios = [
     description: "A project with my team on Web Development 2 subject",
   },
   {
-    id: "6",
+    id: "7",
     name: "And More...",
     img: Others,
     urlLive: null,
