@@ -4,7 +4,7 @@ import { CSS } from "./icons/CSS";
 import { JavaScript } from "./icons/JavaScript";
 import { TailwindCSS } from "./icons/TailwindCSS";
 import { React } from "./icons/React";
-import { MaterialUI } from "./icons/MaterialUI";
+import { Sass } from "./icons/Sass";
 import { AdobeXD } from "./icons/AdobeXD";
 import { Figma } from "./icons/Figma";
 import Aos from "aos";
@@ -33,8 +33,8 @@ const techIcon = [
     name: "TailwindCSS",
   },
   {
-    icon: <MaterialUI />,
-    name: "MaterialUI",
+    icon: <Sass />,
+    name: "Sass",
   },
   {
     icon: <Figma />,

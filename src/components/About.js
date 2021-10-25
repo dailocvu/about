@@ -29,7 +29,7 @@ const About = () => {
             </div>
             <a
               className="border py-4 px-14 rounded-md tracking-wide  hover:bg-primaryblue hover:text-gray-800 transition-all duration-300 ease-linear hover:border-transparent "
-              href="/"
+              href="https://drive.google.com/file/d/15xOowIS474UEcZg7wfFnKFgzGSkldydS/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,13 +49,13 @@ const About = () => {
                 About Me
               </h2>
               <h1 className="sm:text-6xl text-4xl font-extrabold">
-                I'm a Front-end Web Developer & Creative Lover
+                I'm a Front-End Web Developer & Creative Lover
               </h1>
               <div className="sm:w-20 sm:h-1 w-14 h-0.5 bg-primaryblue my-6"></div>
               <p className="text-gray-300 font-extralight sm:text-xl">
                 <span className="italic">
-                  “Creativity is just connecting things.”
-                </span>{" "}
+                  “Creativity is just connecting things.”&nbsp;
+                </span>
                 - Steve Jobs
               </p>
               <div className="my-6">
@@ -63,14 +63,13 @@ const About = () => {
                   How to reach me
                 </p>
                 <p className="text-gray-300">
-                  You can email me at
+                  You can email me at&nbsp;
                   <a
                     className="text-primaryblue hover:text-gray-100"
                     href="mailto:vdloc.hcmus@gmail.com"
                   >
-                    {" "}
-                    vdloc.hcmus@gmail.com
-                  </a>{" "}
+                    vdloc.hcmus@gmail.com&nbsp;
+                  </a>
                   or visit 👇🏻
                 </p>
                 <div className="text-4xl mt-2">

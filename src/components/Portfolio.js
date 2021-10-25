@@ -12,10 +12,10 @@ import About from "../images/aboutme.png";
 const portfolios = [
   {
     id: "1",
-    name: "Ella Collection - Modern ECommerce",
+    name: "Cyberstore - Modern ECommerce",
     img: ModernCommerce,
-    urlLive: "https://kryonics.me/e-commerce",
-    urlGithub: "https://github.com/iamkryonics/e-commerce",
+    urlLive: "https://cyberstore.kryonics.me",
+    urlGithub: "https://github.com/iamkryonics/cyberstore",
     description: "Extremely shopping experience with modern UI website",
   },
   {
@@ -40,24 +40,26 @@ const portfolios = [
     img: About,
     urlLive: "https://kryonics.me/about",
     urlGithub: "https://github.com/iamkryonics/about",
-    description: "An introduction about me, skills and projects (Current website)",
+    description:
+      "An introduction about me, skills and projects (Current website)",
   },
   {
     id: "5",
-    name: "Store - ECommerce Website",
-    img: Commerce,
-    urlLive: null,
-    urlGithub: "https://github.com/adga32/DoAnLTW",
-    description: "A project with my team on Web Development 1 subject",
-  },
-  {
-    id: "6",
     name: "Cinema+ - Movie Tickets Booking Website",
     img: Cinema,
     urlLive: null,
     urlGithub: "https://github.com/dragonjjr/Web-Programming-2",
     description: "A project with my team on Web Development 2 subject",
   },
+  {
+    id: "6",
+    name: "Store - ECommerce Website",
+    img: Commerce,
+    urlLive: null,
+    urlGithub: "https://github.com/adga32/DoAnLTW",
+    description: "A project with my team on Web Development 1 subject",
+  },
+
   {
     id: "7",
     name: "And More...",

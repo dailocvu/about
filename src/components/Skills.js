@@ -103,7 +103,7 @@ const Skills = () => {
           data-aos="zoom-in-up"
           className="text-gray-300 mt-2 sm:text-xl text-base"
         >
-          As a Front-end Developer, I have a keen interest in UI/UX, love to
+          As a Front-End Web Developer, I have a keen interest in UI/UX, love to
           build beautiful websites by finding ways to make things easier
         </h2>
         <TechIcons />
