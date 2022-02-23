@@ -4,8 +4,8 @@ import { CSS } from "./icons/CSS";
 import { JavaScript } from "./icons/JavaScript";
 import { TailwindCSS } from "./icons/TailwindCSS";
 import { React } from "./icons/React";
+import { Bootstrap } from "./icons/Bootstrap";
 import { Sass } from "./icons/Sass";
-import { AdobeXD } from "./icons/AdobeXD";
 import { Figma } from "./icons/Figma";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -33,16 +33,16 @@ const techIcon = [
     name: "TailwindCSS",
   },
   {
+    icon: <Bootstrap />,
+    name: "Bootstrap",
+  },
+  {
     icon: <Sass />,
     name: "Sass",
   },
   {
     icon: <Figma />,
     name: "Figma",
-  },
-  {
-    icon: <AdobeXD />,
-    name: "AdobeXD",
   },
 ];
 

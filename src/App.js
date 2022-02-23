@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import Blogs from "./components/Blogs";
 import Skills from "./components/Skills";
 // import ReactFullpage from "@fullpage/react-fullpage";
 
@@ -29,6 +30,7 @@ function App() {
       <About />
       <Skills />
       <Portfolio />
+      <Blogs />
       <Footer />
     </div>
   );
